@@ -23,7 +23,16 @@ img {
     background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
     color: #f1f1f1; /* Grey text */
     width: 100%; /* Full width */
-    padding: 20px; /* Some padding */
+    padding: 2px; /* Some padding */
+  }
+  .index-background-image .bottom {
+    position: absolute; /* Position the background text */
+    bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1; /* Grey text */
+    width: 100%; /* Full width */
+    padding: 2px; /* Some padding */
   }
 
   ul {
@@ -68,3 +77,33 @@ p{
     font-family: 'Courier New', Courier, monospace;
     font-size: 20px;
 }
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: lightblue;
+        font-size: 10px;
+        image-orientation: 0deg;
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    body{
+        background-color: rgb(230, 226, 173);
+        font-size: 12px;
+        image-orientation: 0rad;
+        width: 100%;
+
+    }
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+    body { background-color: rgb(173, 214, 230);
+           font-size: 14px;
+           image-orientation: 0deg;
+           width: 100%;
+
+    }
+} 
