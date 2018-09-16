@@ -57,6 +57,7 @@ input[type=Submit]{
         }
     @media only screen and (max-width: 480px) {
             body {
+                display: block;
                 background-color: lightblue;
                 font-size: 10px;
                 width: 100%;
@@ -65,6 +66,7 @@ input[type=Submit]{
         
      @media only screen and (min-width: 768px) {
             body{
+                display: block
                 background-color: rgb(230, 226, 173);
                 font-size: 12px;
                 width: 100%;
@@ -76,6 +78,7 @@ input[type=Submit]{
     @media only screen and (min-width: 992px) {
         
             body { background-color: rgb(173, 214, 230);
+                   display: block;
                    font-size: 14px;
                    width: 100%;
         
