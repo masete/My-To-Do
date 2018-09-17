@@ -66,7 +66,7 @@ input[type=Submit]{
         
      @media only screen and (min-width: 768px) {
             body{
-                display: block
+                display: block;
                 background-color: rgb(230, 226, 173);
                 font-size: 12px;
                 width: 100%;
