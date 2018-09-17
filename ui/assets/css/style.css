@@ -1,3 +1,8 @@
+body{
+
+    background-color: darkgrey;
+    height: 280px;
+}
 label {
     padding: 12px 12px 12px 0px;
     display : inline-block ;
@@ -62,14 +67,7 @@ li a {
             font-size: 10px;
             width: 100%;
             }
-    .col-25{
-            margin: 3px;
-            width: 20%;   
-        }
-    label {
-            padding: 3px;
-            display : inline-block ;
-            }}
+
         
 @media only screen and (min-width: 480px) {
     body{
@@ -79,10 +77,7 @@ li a {
             width: 100%;
         
             }
-            /*label {
-                padding: 3px 3px 3px 0px;
-                display : inline-block ;
-                }  */   
+           
         } 
         
         /* Large devices (laptops/desktops, 992px and up) */
