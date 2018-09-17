@@ -1,5 +1,5 @@
 label {
-    padding: 6px 6px 6px 0px;
+    padding: 12px 12px 12px 0px;
     display : inline-block ;
     }
 input[type=Submit]{
@@ -48,13 +48,13 @@ ul {
     overflow: hidden;
     background-color: deepskyblue ;
     }
-       /* li a {
-            display: block;
-            color: rgb(27, 2, 2);
-            text-align: center;
-            padding: 14px 16px;
-            text-decoration: none;
-        }*/
+li a {
+    display: block;
+    color: rgb(27, 2, 2);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+        }
 @media only screen and (max-width: 480px) {
     body {
             display: block;
@@ -79,29 +79,24 @@ ul {
             width: 100%;
         
             }
+            /*label {
+                padding: 3px 3px 3px 0px;
+                display : inline-block ;
+                }  */   
         } 
         
         /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
         
-        body { background-color: rgb(173, 214, 230);
+        body {
+            background-color: rgb(173, 214, 230);
             display: block;
             font-size: 14px;
             width: 100%;
         
             }
         } 
-        .col-25 {
-            float : center;
-            width : 25%;
-            margin :10px;
-            }
-        .col-75{
-            width: 50%;
-            margin: 15px;
-
-            }
-
+       
 
 
         
