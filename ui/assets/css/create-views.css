@@ -75,3 +75,15 @@
   transition: 0.3s;
   border-radius: 5px;
 }
+nav {
+  float: center;
+  max-width: 160px;
+  margin: 2px;
+  padding: 1em;
+}
+li {
+  float: left;
+}
+.flow{
+  flex-direction: inherit;
+}
