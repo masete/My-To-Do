@@ -78,12 +78,12 @@ p{
     font-size: 20px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 400px) {
     body {
         background-color: lightblue;
         font-size: 10px;
         image-orientation: 0deg;
-        width: 100%;
+        width: 80%;
     }
 }
 
