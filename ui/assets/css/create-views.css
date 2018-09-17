@@ -112,3 +112,15 @@
   background-color: #4CAF50;
   color: white;
 }
+.top{
+  width: 100%;
+  align-content: center;
+}
+.left{
+  float:left;
+  width: 50%;
+}
+.right{
+  float:right;
+  width: 50%;
+}
