@@ -63,3 +63,15 @@
   -ms-transform: rotate(45deg);
   transform: rotate(45deg);
 }
+.addBtn {
+  padding: 10px;
+  width: 5%;
+  background: #d9d9d9;
+  color: #555;
+  flex-direction: inherit;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 5px;
+}
