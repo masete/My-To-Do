@@ -124,3 +124,7 @@
   float:right;
   width: 50%;
 }
+.bottom{
+  clear: both;
+  width: 100%;
+}
