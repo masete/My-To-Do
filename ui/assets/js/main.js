@@ -1,19 +1,18 @@
-<script  type="text/javascript">
- var frmvalidator = new Validator("myform");
- frmvalidator.addValidation("FirstName","req","Please enter your First Name");
- frmvalidator.addValidation("FirstName","maxlen=20",
-        "Max length for FirstName is 20");
- 
- frmvalidator.addValidation("LastName","req");
- frmvalidator.addValidation("LastName","maxlen=20");
- 
- frmvalidator.addValidation("Email","maxlen=50");
- frmvalidator.addValidation("Email","req");
- frmvalidator.addValidation("Email","email");
- 
- frmvalidator.addValidation("Phone","maxlen=50");
- frmvalidator.addValidation("Phone","numeric");
- 
- frmvalidator.addValidation("Address","maxlen=50");
- frmvalidator.addValidation("Country","dontselect=000");
-</script>
+function validateForm() {
+    var x = document.forms["myForm"]["Username"].value;
+    if (x == "") {
+        alert("Name must be filled out");
+        return false;
+    }
+}
+var email = document.getElementById("mail");
+
+email.addEventListener("input", function (event) {
+  if (email.validity.typeMismatch) {
+    email.setCustomValidity("I expect an e-mail, darling!");
+  } else {
+    email.setCustomValidity("");
+  }
+});
+
+

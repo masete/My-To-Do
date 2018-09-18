@@ -14,13 +14,13 @@
         <header>My-To-Do</header>
 
         <div>
-            <form>
+            <form name="myForm" action="" onsubmit="return validateForm()" method="">
                 <div>
                     <div>
                         <label for="Uname"> Username</label>
                     </div>
                     <div>
-                        <input type="text" id="Uname" name="Username" placeholder="your username">
+                        <input type="text" id="Uname" name="Username" placeholder="your username" required>
                     </div>
                 </div>
                 <div>
@@ -28,7 +28,7 @@
                         <label for="Email"> Email</label>
                     </div>
                     <div>
-                        <input type="email" id="email" name="email" placeholder="your email">
+                        <input type="email" id="email" name="mail" placeholder="your email" required>
                     </div>
                 </div>
                 <div class="row">
@@ -36,14 +36,14 @@
                         <label for="Pword"> Password</label>
                     </div>
                     <div>
-                        <input type="text" id="Pword" name="Password" placeholder="your password">
+                        <input type="text" id="Pword" name="Password" placeholder="your password" required>
                     </div>
                 </div>
 
                 <label for="Pword"> Confirm Password</label>
         </div>
 
-        <input type="text" id="Pword" name="Confirm Password" placeholder="Confirm Password">
+        <input type="text" id="Pword" name="Confirm Password" placeholder="Confirm Password" required>
         </div>
         </div>
         <br><br>
