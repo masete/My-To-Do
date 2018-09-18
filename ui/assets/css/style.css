@@ -47,6 +47,13 @@ input[type=password], select {
     box-sizing: border-box;
     resize:vertical;
     }
+input:invalid {
+    box-shadow: 0 0 5px 1px red;
+    }
+      
+input:focus:invalid {
+    outline: none;
+    }
 ul {
     list-style-type: none;
     margin: 0;
