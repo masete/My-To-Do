@@ -1,0 +1,196 @@
+body{
+
+
+  background-color: darkgrey;
+}
+.create{
+  width: 60%;
+  margin: 0 auto;
+
+}
+/* The container */
+.container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.container input:checked ~ .checkmark {
+  background-color: #2196F3;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.container .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.addBtn {
+  padding: 10px;
+  width: 5%;
+  background: #d9d9d9;
+  color: #555;
+  flex-direction: inherit;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 5px;
+}
+.Btn{
+  padding: 10px;
+  width: 5%;
+  background: #d9d9d9;
+  color: #555;
+  flex-direction: inherit;
+  text-align: center;
+  font-size: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 5px;
+}
+
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+.top{
+  width: 100%;
+  align-content: center;
+}
+.left{
+  float:left;
+  width: 50%;
+  height: 500px;
+}
+.right{
+  float:right;
+  width: 50%;
+  height: 500px;
+}
+.bottom{
+  clear: both;
+  width: 100%;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+height: 280px;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+header, footer {
+  padding: 5px;
+  color: white;
+  background-color: #06121a;
+  clear: left;
+  text-align: center;
+  }
+  button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+button:hover, a:hover {
+  opacity: 0.7;
+}
+li a {
+  display: block;
+  color: rgb(27, 2, 2);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+      }
+ ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: deepskyblue ;
+ }
+                
+  

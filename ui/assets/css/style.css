@@ -1,3 +1,9 @@
+body{
+
+    background-color: darkgrey;
+   
+    
+}
 label {
     padding: 12px 12px 12px 0px;
     display : inline-block ;
@@ -10,78 +16,90 @@ input[type=Submit]{
     cursor :pointer;
     float: center;
     }
-    header, footer {
-        padding: 5px;
-        color: white;
-        background-color: #06121a;
-        clear: left;
-        text-align: center;
+header, footer {
+    padding: 5px;
+    color: white;
+    background-color: #06121a;
+    clear: left;
+    text-align: center;
     }   
-    input[type=email],select {
-        width :25%;
-        padding:12px;
-        border : 1px solid #ccc;
-        border-radius : 5px;
-        box-sizing: border-box;
-        resize:vertical;
+input[type=email],select {
+    width :25%;
+    padding:12px;
+    border : 1px solid #ccc;
+    border-radius : 5px;
+    box-sizing: border-box;
+    resize:vertical;
+    }
+input[type=text], select {
+    width :25%;
+    padding:12px;
+    border : 1px solid #ccc;
+    border-radius : 5px;
+    box-sizing: border-box;
+    resize:vertical;
+    }
+input[type=password], select {
+    width :25%;
+    padding:12px;
+    border : 1px solid #ccc;
+    border-radius : 5px;
+    box-sizing: border-box;
+    resize:vertical;
+    }
+input:invalid {
+    box-shadow: 0 0 5px 1px red;
+    }
+      
+input:focus:invalid {
+    outline: none;
+    }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: deepskyblue ;
+    }
+li a {
+    display: block;
+    color: rgb(27, 2, 2);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
         }
-    input[type=text], select {
-        width :25%;
-        padding:12px;
-        border : 1px solid #ccc;
-        border-radius : 5px;
-        box-sizing: border-box;
-        resize:vertical;
-        }
-    input[type=password], select {
-        width :25%;
-        padding:12px;
-        border : 1px solid #ccc;
-        border-radius : 5px;
-        box-sizing: border-box;
-        resize:vertical;
-        }
-        ul {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-            overflow: hidden;
-            background-color: deepskyblue ;
-        }
-        li a {
+@media only screen and (max-width: 480px) {
+    body {
             display: block;
-            color: white;
-            text-align: center;
-            padding: 14px 16px;
-            text-decoration: none;
-        }
-    @media only screen and (max-width: 480px) {
-            body {
-                display: block;
-                background-color: lightblue;
-                font-size: 10px;
-                width: 100%;
+            background-color: lightblue;
+            font-size: 10px;
+            width: 100%;
             }
-        }
+
         
-     @media only screen and (min-width: 768px) {
-            body{
-                display: block
-                background-color: rgb(230, 226, 173);
-                font-size: 12px;
-                width: 100%;
+@media only screen and (min-width: 480px) {
+    body{
+            display: block;
+            background-color: rgb(230, 173, 190);
+            font-size: 12px;
+            width: 100%;
         
             }
+           
         } 
         
         /* Large devices (laptops/desktops, 992px and up) */
-    @media only screen and (min-width: 992px) {
+@media only screen and (min-width: 992px) {
         
-            body { background-color: rgb(173, 214, 230);
-                   display: block;
-                   font-size: 14px;
-                   width: 100%;
+        body {
+            background-color: rgb(173, 214, 230);
+            display: block;
+            font-size: 14px;
+            width: 100%;
         
             }
         } 
+       
+
+
         
